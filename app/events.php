@@ -78,7 +78,7 @@ Event::listen('auth.login', function($user) {
 |
 */
 
-Event::listen('security.log', function($event_id, $message = null, $triggered_for = null) {
+/*Event::listen('security.log', function($event_id, $message = null, $triggered_for = null) {
 
     // Lets define a few known event types. Logging on an event
     // should be as trivial as:
@@ -144,4 +144,4 @@ Event::listen('security.log', function($event_id, $message = null, $triggered_fo
     // later.
     Cache::put('last_error_ref', Crypt::encrypt($log_entry->id), 5);
 
-});
+});*/
